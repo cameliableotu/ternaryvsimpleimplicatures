@@ -35,6 +35,49 @@ PennController( "welcome" ,
         .set( getTextInput("ID")))
 	      
 .log( "ID" , getVar("ID") );
+PennController("welcome" ,
+	    defaultText
+	        .print()
+	    ,
+	    newText ("<p> Once upon a time in a faraway land there lived a very gifted wizard Merlin who liked to play with shadows and make others guess what they are. </p>")
+	    ,
+	                  
+	     newImage ("wizardanddragon.png")
+               .print ()
+	       ,
+	       newKey(" ")
+        .wait());
+PennController("details" ,
+	    defaultText
+	        .print()
+	    
+	       ,
+newText ("<p> Now Merlin is playing the shadow game with a really cute baby dragon, who has to guess whose animal the shadow belongs to.</p>")
+	,
+newText ("<p> When he guesses the shadow correctly, you have to reward the baby dragon with a big apple, and when he guesses the shadow wrong, you'll just give him a tiny apple.  </p>")
+,
+	      newImage("bigapple", "bigapple.png")
+        .settings.size(150,200)
+        // .print()
+    ,
+	       newImage("mediumapple", "smallapple.png")
+        .settings.size(150,200)
+	       // .print()
+    ,
+    newImage("smallapple", "smallapple.png")
+        .settings.size(150,200)
+        // .print()
+    ,
+    newCanvas(550,200)
+        .settings.add( 0 , 0 , getImage("bigapple") )
+         .settings.add(200 , 0 , getImage("mediumapple") )
+        .settings.add( 400 , 0 , getImage("smallapple") )
+        .print()
+	       ,
+	       newKey(" ")
+        .wait()
+)
+;	    
 
 PennController.SendResults( "send" );
 PennController( "final" ,
