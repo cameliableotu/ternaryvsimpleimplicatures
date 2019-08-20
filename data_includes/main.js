@@ -1,5 +1,5 @@
-PennController.ResetPrefix(null);
-PennController.Sequence( "welcome", "send" , "final" )
+PennController.ResetPrefix(null)
+PennController.Sequence( "welcome", "details","send" , "final" )
 ;
 PennController( "welcome" ,
     defaultText
@@ -57,27 +57,28 @@ newText ("<p> Now Merlin is playing the shadow game with a really cute baby drag
 newText ("<p> When he guesses the shadow correctly, you have to reward the baby dragon with a big apple, and when he guesses the shadow wrong, you'll just give him a tiny apple.  </p>")
 ,
 	      newImage("bigapple", "bigapple.png")
-        .settings.size(150,200)
+        .settings.size(200,200)
         // .print()
     ,
 	       newImage("mediumapple", "mediumapple.png")
-        .settings.size(150,200)
+        .settings.size(200,200)
 	       // .print()
     ,
     newImage("smallapple", "smallapple.png")
-        .settings.size(150,200)
+        .settings.size(200,200)
         // .print()
     ,
-    newCanvas(550,200)
+    newCanvas(700,200)
         .settings.add( 0 , 0 , getImage("bigapple") )
-         .settings.add(200 , 0 , getImage("mediumapple") )
-        .settings.add( 400 , 0 , getImage("smallapple") )
+         .settings.add(250 , 0 , getImage("mediumapple") )
+        .settings.add( 500 , 0 , getImage("smallapple") )
         .print()
 	       ,
 	       newKey(" ")
         .wait()
 )
 ;	    
+
 
 PennController.SendResults( "send" );
 PennController( "final" ,
