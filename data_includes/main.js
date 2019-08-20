@@ -60,7 +60,7 @@ newText ("<p> When he guesses the shadow correctly, you have to reward the baby 
         .settings.size(150,200)
         // .print()
     ,
-	       newImage("mediumapple", "smallapple.png")
+	       newImage("mediumapple", "mediumapple.png")
         .settings.size(150,200)
 	       // .print()
     ,
