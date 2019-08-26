@@ -1,5 +1,4 @@
 
-PennController.Sequence( randomize ("Description" ));
 PennController.ResetPrefix(null);
 PennController.Template(PennController.GetTable("table_stage1.csv"),
 PennController.defaultTable.filter("Item","dog") ,
