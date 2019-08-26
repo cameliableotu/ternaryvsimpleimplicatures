@@ -1,5 +1,5 @@
 PennController.ResetPrefix(null)
-PennController.Sequence( "welcome", "details","send" , "final" )
+PennController.Sequence( "welcome", "details","send" , "experiment", "final" )
 ;
 PennController( "welcome" ,
     defaultText
