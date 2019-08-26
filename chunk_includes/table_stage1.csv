@@ -1,0 +1,17 @@
+﻿Description,Testimage,Item,Stage,Truth,Inform,Certain
+It is possible that it is a dog.,dogshadow.jpg,dog,1,T,U,possible
+It is certain that it is a dog.,dogshadow.jpg,dog,1,T,I,certain
+It is possible that it is a cat.,dogshadow.jpg,dog,1,F,,possible
+It is certain that it is a cat.,dogshadow.jpg,dog,1,F,,certain
+It is possible that it is a frog.,frogshadow.jpg,frog,1,T,U,possible
+It is certain that it is a frog.,frogshadow.jpg,frog,1,T,I,certain
+It is possible that it is a dog.,frogshadow.jpg,frog,1,F,,possible
+It is certain that it is a dog.,frogshadow.jpg,frog,1,F,,certain
+It is possible that it is a cat.,catshadow.jpg,cat,1,T,U,possible
+It is certain that it is a cat.,catshadow.jpg,cat,1,T,I,certain
+It is possible that it is a dog.,catshadow.jpg,cat,1,F,,possible
+It is certain that it is a dog.,catshadow.jpg,cat,1,F,,certain
+It is possible that it is a cow.,cowshadow.jpg,cow,1,T,U,possible
+It is certain that it is a cow.,cowshadow.jpg,cow,1,T,I,certain
+It is possible that it is a cat.,cowshadow.jpg,cow,1,F,,possible
+It is certain that it is a cat.,cowshadow.jpg,cow,1,F,,certain
