@@ -30,10 +30,10 @@ newSelector()
     .settings.keys(          "F"    ,          "J")
     .settings.log()
     .wait()
-))
+)
 
 
-.log( "ID" , getVar("ID") )
+.log( "ID" , getVar("ID") ))
 
 
 
